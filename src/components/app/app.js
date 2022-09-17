@@ -11,7 +11,8 @@ function App(){
         {name: 'Alex K.', salary: 800, increase: true},
         {name: 'Anton S.', salary: 1400, increase: true},
         {name: 'John V.', salary: 2200, increase: true},
-        {name: 'Jack A.', salary: 2500, increase: false}
+        {name: 'Jack A.', salary: 2500, increase: false},
+        {name: 'Dmitriy E.', salary: 2500, increase: false}
     ];
     return (
         <div className="app">
@@ -25,5 +26,4 @@ function App(){
         </div>
     )
 }
-
 export default App;
