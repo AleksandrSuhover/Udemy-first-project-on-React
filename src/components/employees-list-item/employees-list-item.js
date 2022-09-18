@@ -1,6 +1,5 @@
 import './employees-list-item.css';
 
-
 const EmpoyeesListItem = ({name, salary, increase}) => {
 
     let classNames = 'list-group-item d-flex justify-content-between"';
