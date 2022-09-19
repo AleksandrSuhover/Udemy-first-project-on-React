@@ -10,7 +10,7 @@ const EmpoyeesListItem = ({name, salary, increase}) => {
         <li className={classNames}>
             <span className="list-group-item-label">{name}</span>
             <input type="text" className="list-group-item-input" defaultValue={salary + "$"}/>
-            <div clsccName='d-flex justify-content-center align-items-center'>
+            <div className='d-flex justify-content-center align-items-center'>
                 <button type="button"
                     className="btn-cookie btn-sm">
                     <i className="fas fa-cookie"></i>
