@@ -21,7 +21,7 @@ class EmployersAddForm extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        if (this.state.name.length < 3 || !this.state.salary) return;
+        if (this.state.name.length < 3 || !this.state.salary) return; // Добавляем условие чтобы нельзя было добавить в массив пустые данные
         this.props.onAdd(this.state.name, this.state.salary);
         this.setState({
             name: '',
